@@ -6,26 +6,26 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -28710,7 +28710,7 @@ www.irf.com&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="U8" library="iot_demo_hardware" deviceset="CC1200" device=""/>
+<part name="U8" library="iot_demo_hardware" deviceset="CC1200" device="" value="CC1200"/>
 <part name="U4" library="SparkFun-Sensors" deviceset="HTU21D" device="SMD">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="HTU21D"/>
@@ -28774,22 +28774,22 @@ www.irf.com&lt;p&gt;
 <part name="CN1" library="adafruit" deviceset="USB" device="MINIB" value="USB"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="U6" library="iot_demo_hardware" deviceset="BQ27411" device="" value="BQ27411"/>
-<part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1uF / 10V">
+<part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="06035A100FAT2A"/>
 <attribute name="OC_NEWARK" value="43T7237"/>
 </part>
-<part name="D8" library="adafruit" deviceset="R-US_" device="R0402" value="0.01 ohm"/>
-<part name="C23" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1uF / 10V">
+<part name="D8" library="adafruit" deviceset="R-US_" device="R0402" value="0.01"/>
+<part name="C23" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="06035A100FAT2A"/>
 <attribute name="OC_NEWARK" value="43T7237"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="D10" library="adafruit" deviceset="R-US_" device="R0402" value="0.01 ohm"/>
+<part name="D10" library="adafruit" deviceset="R-US_" device="R0402" value="0.01"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="D9" library="adafruit" deviceset="R-US_" device="R0402" value="1M ohm"/>
+<part name="D9" library="adafruit" deviceset="R-US_" device="R0402" value="1M"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="JST-PTH-VERT" value="MOTION"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -28907,7 +28907,7 @@ www.irf.com&lt;p&gt;
 <part name="SMA" library="SparkFun-Connectors" deviceset="SMA_EDGE" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="L171" library="SparkFun-Passives" deviceset="INDUCTOR" device="0402" value="10nH"/>
-<part name="R171" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10ohm"/>
+<part name="R171" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10"/>
 <part name="C173" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="33pF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="0603YC104JAT2A"/>
@@ -28968,15 +28968,15 @@ www.irf.com&lt;p&gt;
 <attribute name="MPN" value="06035A100FAT2A"/>
 <attribute name="OC_NEWARK" value="43T7237"/>
 </part>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="27ohm"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="27ohm"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="27"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="27"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="220n"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="220n"/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0402" value="47k"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="1n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="1nF"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0402" value="470n"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0402" value="0R"/>
@@ -29064,15 +29064,15 @@ www.irf.com&lt;p&gt;
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1K"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
-<part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C403" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="4u7"/>
+<part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
+<part name="C403" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="47uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="U11" library="Texas Instruments_By_element14_Batch_1" deviceset="TPD2S017DBVR" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="iot_demo_hardware" deviceset="LTC3553-2" device=""/>
 <part name="L10" library="AcceleratedDesigns_Lib" deviceset="SDR0403-2R2ML" device="SDR0403-2R2ML" value="4.7uH"/>
-<part name="CHARGE" library="SparkFun-LED" deviceset="LED" device="0603" value="ORANGE"/>
+<part name="CHARGE" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF">
@@ -29101,9 +29101,11 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="GND73" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="adafruit" deviceset="R-US_" device="R0402" value="1.87K"/>
-<part name="POWER" library="SparkFun-LED" deviceset="LED" device="0603" value="RED"/>
+<part name="POWER" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="R27" library="adafruit" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="GND74" library="supply1" deviceset="GND" device=""/>
+<part name="Q5" library="transistor-small-signal" deviceset="BSS84" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29940,10 +29942,10 @@ I2C read is 0xC1</text>
 <wire x1="234.95" y1="367.03" x2="204.47" y2="367.03" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="204.47" y1="367.03" x2="204.47" y2="424.18" width="0.1524" layer="95" style="shortdash"/>
 <text x="206.502" y="418.846" size="2.54" layer="95">BSL</text>
-<wire x1="72.39" y1="340.36" x2="72.39" y2="314.96" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="72.39" y1="314.96" x2="49.53" y2="314.96" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="68.58" y1="340.36" x2="68.58" y2="314.96" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="68.58" y1="314.96" x2="49.53" y2="314.96" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="49.53" y1="314.96" x2="49.53" y2="340.36" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="49.53" y1="340.36" x2="72.39" y2="340.36" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="49.53" y1="340.36" x2="68.58" y2="340.36" width="0.1524" layer="95" style="shortdash"/>
 <text x="24.892" y="348.996" size="2.54" layer="95">Analog VCC</text>
 <wire x1="48.26" y1="309.88" x2="48.26" y2="353.06" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="48.26" y1="309.88" x2="24.13" y2="309.88" width="0.1524" layer="95" style="shortdash"/>
@@ -30313,9 +30315,9 @@ I2C read is 0xC1</text>
 <instance part="G1" gate="G$1" x="21.59" y="242.57" rot="R90"/>
 <instance part="R10" gate="G$1" x="38.1" y="242.57" rot="R180"/>
 <instance part="GND62" gate="1" x="201.93" y="209.55"/>
-<instance part="SUPPLY12" gate="G$1" x="180.34" y="246.38"/>
-<instance part="C22" gate="G$1" x="180.34" y="236.22"/>
-<instance part="GND63" gate="1" x="180.34" y="224.79"/>
+<instance part="SUPPLY12" gate="G$1" x="175.26" y="246.38"/>
+<instance part="C22" gate="G$1" x="175.26" y="236.22"/>
+<instance part="GND63" gate="1" x="175.26" y="224.79"/>
 <instance part="U5" gate="G$1" x="214.63" y="237.49"/>
 <instance part="SUPPLY13" gate="G$1" x="93.98" y="243.84"/>
 <instance part="U$1" gate="G$1" x="48.26" y="2.54"/>
@@ -30404,11 +30406,13 @@ I2C read is 0xC1</text>
 <instance part="POWER" gate="G$1" x="444.5" y="104.14" rot="R90"/>
 <instance part="R27" gate="G$1" x="457.2" y="104.14" rot="R180"/>
 <instance part="GND74" gate="1" x="464.82" y="99.06"/>
+<instance part="Q5" gate="G$1" x="185.42" y="242.57" rot="R270"/>
+<instance part="GND3" gate="1" x="298.45" y="356.87"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="185.42" y1="160.02" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
@@ -30760,7 +30764,7 @@ I2C read is 0xC1</text>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="-"/>
-<wire x1="180.34" y1="227.33" x2="180.34" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="227.33" x2="175.26" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND63" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -30851,6 +30855,13 @@ I2C read is 0xC1</text>
 <wire x1="462.28" y1="104.14" x2="464.82" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="104.14" x2="464.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="298.45" y1="359.41" x2="298.45" y2="361.95" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="33"/>
+<wire x1="302.26" y1="353.06" x2="302.26" y2="361.95" width="0.1524" layer="91"/>
+<wire x1="298.45" y1="361.95" x2="302.26" y2="361.95" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="2">
 <segment>
@@ -30928,10 +30939,6 @@ I2C read is 0xC1</text>
 <junction x="322.58" y="373.38"/>
 <wire x1="325.12" y1="353.06" x2="325.12" y2="373.38" width="0.1524" layer="91"/>
 <junction x="325.12" y="373.38"/>
-<pinref part="U8" gate="G$1" pin="33"/>
-<wire x1="302.26" y1="353.06" x2="302.26" y2="373.38" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="373.38" x2="314.96" y2="373.38" width="0.1524" layer="91"/>
-<junction x="314.96" y="373.38"/>
 <pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="370.84" x2="332.74" y2="373.38" width="0.1524" layer="91"/>
 <junction x="332.74" y="373.38"/>
@@ -31060,15 +31067,6 @@ I2C read is 0xC1</text>
 <wire x1="519.43" y1="90.17" x2="519.43" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="238.76" x2="180.34" y2="242.57" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
-<pinref part="C22" gate="G$1" pin="+"/>
-<wire x1="180.34" y1="242.57" x2="180.34" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="242.57" x2="207.01" y2="242.57" width="0.1524" layer="91"/>
-<junction x="180.34" y="242.57"/>
-<pinref part="U5" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="Q4" gate="G$1" pin="D"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 <wire x1="375.92" y1="185.42" x2="375.92" y2="187.96" width="0.1524" layer="91"/>
@@ -31097,6 +31095,15 @@ I2C read is 0xC1</text>
 <pinref part="SUPPLY27" gate="G$1" pin="VCC"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="143.51" y1="189.23" x2="143.51" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
+<pinref part="C22" gate="G$1" pin="+"/>
+<wire x1="175.26" y1="246.38" x2="175.26" y2="242.57" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="175.26" y1="242.57" x2="175.26" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="242.57" x2="175.26" y2="242.57" width="0.1524" layer="91"/>
+<junction x="175.26" y="242.57"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -31129,14 +31136,14 @@ I2C read is 0xC1</text>
 <label x="171.45" y="321.31" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="115.57" y1="238.76" x2="107.95" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="3"/>
-<label x="107.95" y="238.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U6" gate="G$1" pin="SCL"/>
 <label x="189.23" y="71.12" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="198.12" y1="71.12" x2="189.23" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="123.19" y1="238.76" x2="130.81" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="J2" gate="A" pin="4"/>
+<label x="130.81" y="238.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -31174,9 +31181,9 @@ I2C read is 0xC1</text>
 <label x="189.23" y="76.2" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="115.57" y1="236.22" x2="107.95" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="5"/>
-<label x="107.95" y="236.22" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="123.19" y1="236.22" x2="130.81" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="J2" gate="A" pin="6"/>
+<label x="130.81" y="236.22" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -31379,9 +31386,9 @@ I2C read is 0xC1</text>
 <label x="281.94" y="327.66" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="6"/>
-<wire x1="85.09" y1="341.63" x2="82.55" y2="341.63" width="0.1524" layer="91"/>
-<label x="82.55" y="341.63" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="57"/>
+<wire x1="168.91" y1="346.71" x2="171.45" y2="346.71" width="0.1524" layer="91"/>
+<label x="171.45" y="346.71" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RF_GPIO2" class="0">
@@ -31391,9 +31398,9 @@ I2C read is 0xC1</text>
 <label x="281.94" y="322.58" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="8"/>
-<wire x1="85.09" y1="336.55" x2="82.55" y2="336.55" width="0.1524" layer="91"/>
-<label x="82.55" y="336.55" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="55"/>
+<wire x1="168.91" y1="341.63" x2="171.45" y2="341.63" width="0.1524" layer="91"/>
+<label x="171.45" y="341.63" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RF_GPIO0" class="0">
@@ -31403,9 +31410,9 @@ I2C read is 0xC1</text>
 <label x="309.88" y="287.02" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="7"/>
-<wire x1="85.09" y1="339.09" x2="82.55" y2="339.09" width="0.1524" layer="91"/>
-<label x="82.55" y="339.09" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="54"/>
+<wire x1="168.91" y1="339.09" x2="171.45" y2="339.09" width="0.1524" layer="91"/>
+<label x="171.45" y="339.09" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RF_CSN" class="0">
@@ -31415,9 +31422,9 @@ I2C read is 0xC1</text>
 <label x="312.42" y="287.02" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="5"/>
-<wire x1="85.09" y1="344.17" x2="82.55" y2="344.17" width="0.1524" layer="91"/>
-<label x="82.55" y="344.17" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="53"/>
+<wire x1="168.91" y1="336.55" x2="171.45" y2="336.55" width="0.1524" layer="91"/>
+<label x="171.45" y="336.55" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -31768,20 +31775,6 @@ I2C read is 0xC1</text>
 <junction x="29.21" y="328.93"/>
 </segment>
 </net>
-<net name="P6.6" class="0">
-<segment>
-<wire x1="82.55" y1="349.25" x2="85.09" y2="349.25" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="3"/>
-<label x="82.55" y="349.25" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="P6.7" class="0">
-<segment>
-<wire x1="82.55" y1="346.71" x2="85.09" y2="346.71" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="4"/>
-<label x="82.55" y="346.71" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="P2.3" class="0">
 <segment>
 <wire x1="130.81" y1="285.75" x2="130.81" y2="288.29" width="0.1524" layer="91"/>
@@ -31825,9 +31818,9 @@ I2C read is 0xC1</text>
 <label x="171.45" y="331.47" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="123.19" y1="236.22" x2="130.81" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="6"/>
-<label x="130.81" y="236.22" size="0.8128" layer="95" xref="yes"/>
+<wire x1="115.57" y1="236.22" x2="107.95" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="J2" gate="A" pin="5"/>
+<label x="107.95" y="236.22" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UCA1_RXD" class="0">
@@ -31837,9 +31830,9 @@ I2C read is 0xC1</text>
 <label x="171.45" y="334.01" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="123.19" y1="238.76" x2="130.81" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="4"/>
-<label x="130.81" y="238.76" size="0.8128" layer="95" xref="yes"/>
+<wire x1="115.57" y1="238.76" x2="107.95" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="J2" gate="A" pin="3"/>
+<label x="107.95" y="238.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
@@ -32057,13 +32050,6 @@ I2C read is 0xC1</text>
 <pinref part="U5" gate="G$1" pin="DO"/>
 </segment>
 </net>
-<net name="IO_CLK" class="0">
-<segment>
-<wire x1="140.97" y1="285.75" x2="140.97" y2="288.29" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="36"/>
-<label x="140.97" y="285.75" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="RF_GPIO3" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="3"/>
@@ -32071,9 +32057,9 @@ I2C read is 0xC1</text>
 <label x="281.94" y="325.12" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="57"/>
-<wire x1="168.91" y1="346.71" x2="171.45" y2="346.71" width="0.1524" layer="91"/>
-<label x="171.45" y="346.71" size="0.8128" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="56"/>
+<wire x1="168.91" y1="344.17" x2="171.45" y2="344.17" width="0.1524" layer="91"/>
+<label x="171.45" y="344.17" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLASH_CD" class="0">
@@ -32083,9 +32069,9 @@ I2C read is 0xC1</text>
 <pinref part="U5" gate="G$1" pin="SHIELD@2"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="55"/>
-<wire x1="168.91" y1="341.63" x2="171.45" y2="341.63" width="0.1524" layer="91"/>
-<label x="171.45" y="341.63" size="0.8128" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="30"/>
+<wire x1="125.73" y1="288.29" x2="125.73" y2="285.75" width="0.1524" layer="91"/>
+<label x="125.73" y="285.75" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="FLASH_CSN" class="0">
@@ -32095,30 +32081,9 @@ I2C read is 0xC1</text>
 <pinref part="U5" gate="G$1" pin="CS"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="56"/>
-<wire x1="168.91" y1="344.17" x2="171.45" y2="344.17" width="0.1524" layer="91"/>
-<label x="171.45" y="344.17" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CHARGE_INT" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="53"/>
-<wire x1="168.91" y1="336.55" x2="171.45" y2="336.55" width="0.1524" layer="91"/>
-<label x="171.45" y="336.55" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="P5.0" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="9"/>
-<wire x1="85.09" y1="334.01" x2="82.55" y2="334.01" width="0.1524" layer="91"/>
-<label x="82.55" y="334.01" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="P5.1" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="10"/>
-<wire x1="85.09" y1="331.47" x2="82.55" y2="331.47" width="0.1524" layer="91"/>
-<label x="82.55" y="331.47" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="29"/>
+<wire x1="123.19" y1="288.29" x2="123.19" y2="285.75" width="0.1524" layer="91"/>
+<label x="123.19" y="285.75" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="UCA1_STE" class="0">
@@ -32153,11 +32118,16 @@ I2C read is 0xC1</text>
 <label x="171.45" y="351.79" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="IO_SCK" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="SCK"/>
 <wire x1="207.01" y1="240.03" x2="198.12" y2="240.03" width="0.1524" layer="91"/>
 <label x="198.12" y="240.03" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="140.97" y1="285.75" x2="140.97" y2="288.29" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="36"/>
+<label x="140.97" y="285.75" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -32239,13 +32209,6 @@ I2C read is 0xC1</text>
 <wire x1="115.57" y1="228.6" x2="107.95" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="11"/>
 <label x="107.95" y="228.6" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="__" class="0">
-<segment>
-<wire x1="115.57" y1="233.68" x2="107.95" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="J2" gate="A" pin="7"/>
-<label x="107.95" y="233.68" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -32377,6 +32340,30 @@ I2C read is 0xC1</text>
 <pinref part="POWER" gate="G$1" pin="C"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="449.58" y1="104.14" x2="452.12" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="2">
+<segment>
+<pinref part="U5" gate="G$1" pin="VCC"/>
+<pinref part="U5" gate="G$1" pin="RSV"/>
+<wire x1="204.47" y1="242.57" x2="207.01" y2="242.57" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="232.41" x2="204.47" y2="232.41" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="232.41" x2="204.47" y2="242.57" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<wire x1="190.5" y1="242.57" x2="204.47" y2="242.57" width="0.1524" layer="91"/>
+<junction x="204.47" y="242.57"/>
+</segment>
+</net>
+<net name="FLASH_ENABLE" class="0">
+<segment>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<wire x1="187.96" y1="247.65" x2="187.96" y2="254" width="0.1524" layer="91"/>
+<label x="187.96" y="254" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="17"/>
+<wire x1="85.09" y1="313.69" x2="82.55" y2="313.69" width="0.1524" layer="91"/>
+<label x="82.55" y="313.69" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
