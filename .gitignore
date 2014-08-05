@@ -34,3 +34,7 @@ eagle.epf
 *.info
 
 *.eps
+
+.DS_Store
+*.job
+*.pro
